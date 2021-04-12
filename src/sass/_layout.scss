@@ -20,6 +20,7 @@ footer {
 }
 
 article {
+  width: 100%;
   max-width: 80ch;
 
   > img {
@@ -64,14 +65,6 @@ ul.tdbc-column-container {
   }
 }
 
-.tdbc-hero {
-  display: grid;
-  min-height: 40vh;
-  place-content: center;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-  text-align: center;
-}
 
 .tdbc-row {
   display: grid;

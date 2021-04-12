@@ -16,10 +16,16 @@
   font-display: swap;
 }
 
+.join-the-discord {
+  margin: 3rem 0;
+  text-align: center
+}
+
 @import "theme";
 @import "reset";
 @import "layout";
 @import "sitenav";
+@import "sidebar";
 @import "typography";
 @import "buttons";
 @import "card";

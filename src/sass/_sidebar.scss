@@ -1,0 +1,12 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 20rem;
+  background-color: #efefef;
+}
+
+body.with-sidebar {
+  padding-left: 20rem;
+}

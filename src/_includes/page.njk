@@ -2,17 +2,19 @@
 layout: base.njk
 ---
 {% include 'sitenav.njk' %}
-
 <header class="tdbc-hero">
   <div class="tdbc-container">
-    <h1 class="tdbc-ink--primary tdbc-mb-none">{{ title }}</h1>
-    <h2 class="tdbc-lead tdbc-content-maxlength tdbc-ink--gray tdbc-mt-md tdbc-mx-auto">
-      {{ description }}
-    </h2>
+    <h1 class="tdbc-ink--primary tdbc-mb-none tdbc-text-align--center tdbc-mt-lg">{{ title }}</h1>
   </div>
 </header>
 <main class="tdbc-container">
   <article class="tdbc-mx-auto">
+    <p class="tdbc-lead tdbc-content-maxlength tdbc-ink--gray tdbc-mt-md tdbc-mx-auto">
+      {{ description }}
+    </p>
     {{ content | safe }}
   </article>
+
+  <p class="join-the-discord">if you get stuck, or you love your solution and want to share it, <a href="#">come to my discord</a></p>
+
 </main>
