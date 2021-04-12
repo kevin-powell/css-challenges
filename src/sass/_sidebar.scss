@@ -1,12 +1,16 @@
 .sidebar {
-  position: fixed;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 20rem;
+  
+  
   background-color: #efefef;
+  @media (min-width: 55em) {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 20rem; 
+}
 }
 
 body.with-sidebar {
-  padding-left: 20rem;
+  @media (min-width: 55em) {padding-left: 20rem;}
 }

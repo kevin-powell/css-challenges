@@ -21,19 +21,6 @@ h6 {
   margin: 0;
 }
 
-p,
-li,
-h1,
-h2,
-h3,
-h4 {
-  // Help prevent overflow of long words/names/URLs
-  word-break: break-word;
-
-  // Optional, not supported for all languages
-  // hyphens: auto;
-}
-
 html,
 body {
   overflow-x: hidden;
